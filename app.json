@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Ecafflein",
+    "slug": "Ecafflein",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/CoffeBeain.png",
+    "scheme": "Ecafflein",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/SplachCoffeImg.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "package":"com.elh.ecafflein"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package":"com.elh.ecafflein"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/CoffeBeain1.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
